@@ -18,7 +18,7 @@ Requirement for CNN training: Nvidia GPU with 8GB GDDR memory, Nvidia drivers in
 4. To generate additional plots run all cells in AdditionalPlots.ipynb
 
 ## Annotations
-The newly created annotations are contained in [this file](/HD_EPIC_Sounds_annot.csv). The file also contains all HD-Epic audio annotations. 
+The newly created annotations are contained in [this file](/HD_EPIC_Sounds_annot.csv). The file also contains all [HD-Epic audio annotations](https://github.com/hd-epic/hd-epic-annotations/blob/main/audio-annotations/HD_EPIC_Sounds.csv), and shares its [license](https://creativecommons.org/licenses/by-nc/4.0/). 
 "tap water" is added as a new class with class_id 44.
 
 ## Labeling the videos by yourself
@@ -29,3 +29,12 @@ If you want to follow the process of labeling, check out "Relabeling.ipynb".
 ```
 citation available once paper is published
 ```
+## License
+
+### HD Epic, Annotations
+HD-Epic, including the hdf5 files and video files and their annotations are copyright by the authors of HD-Epic and published under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). This means that you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. You may not use the material for commercial purposes.
+
+Our additional annotations are a derived work of the existing annotations, and we put them under the same license, the above terms apply.
+
+### Code, Figures, Results of this Repository:
+All code, notebooks, figures, and other artefacts of this repository, except for those belonging to HD-Epic itself, are under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
