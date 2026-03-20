@@ -25,9 +25,29 @@ The newly created annotations are contained in [this file](/HD_EPIC_Sounds_annot
 If you want to follow the process of labeling, check out "Relabeling.ipynb".
 
 ## Cite as
-
 ```
-citation available once paper is published
+Robin Burchard and Kristof Van Laerhoven. 2026. Enhancing Wearable Tap Water Audio Detection Through Subclass Annotation in the HD-Epic Dataset. In Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp Companion '25). Association for Computing Machinery, New York, NY, USA, 649–655. https://doi.org/10.1145/3714394.3756153
+```
+
+BibTeX:
+```
+@inproceedings{10.1145/3714394.3756153,
+author = {Burchard, Robin and Van Laerhoven, Kristof},
+title = {Enhancing Wearable Tap Water Audio Detection Through Subclass Annotation in the HD-Epic Dataset},
+year = {2026},
+isbn = {9798400714771},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3714394.3756153},
+doi = {10.1145/3714394.3756153},
+abstract = {Wearable human activity recognition has been shown to benefit from the inclusion of acoustic data, as the sounds around a person often contain valuable context. However, due to privacy concerns, it is usually not ethically feasible to record and save microphone data from the device, since the audio could, for instance, also contain private conversations. Rather, the data should be processed locally, which in turn requires processing power and consumes energy on the wearable device. One special use case of contextual information that can be utilized to augment special tasks in human activity recognition is water flow detection, which can, e.g., be used to aid wearable hand washing detection. We created a new label called tap water for the recently released HD-Epic data set, creating 717 hand-labeled annotations of tap water flow, based on existing annotations of the water class. We analyzed the relation of tap water and water in the dataset and additionally trained and evaluated two lightweight classifiers to evaluate the newly added label class, showing that the new class can be learned more easily.},
+booktitle = {Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing},
+pages = {649–655},
+numpages = {7},
+keywords = {audio activity recognition, wearable computing, dataset, tap water, audio event detection, hd-epic, cnn},
+location = {Finland},
+series = {UbiComp Companion '25}
+}
 ```
 ## License
 
